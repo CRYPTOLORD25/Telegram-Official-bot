@@ -2,9 +2,9 @@ const moment = require("moment");
 const botStartTime = Date.now();
 
 module.exports = (bot) => {
-  const OWNER_USERNAME = "yourusername"; // Replace with your @username
-  const WHATSAPP_CHANNEL_URL = "https://wa.me/1234567890"; // Replace with your WhatsApp link
-  const TELEGRAM_CHANNEL_URL = "https://t.me/YourChannelUsername"; // Replace with your Telegram channel link
+  const OWNER_USERNAME = "@Cryptolord_n"; // Replace with your @username
+  const WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/0029VakGsvvKwqSTt4hEEz1q"; // Replace with your WhatsApp link
+  const TELEGRAM_CHANNEL_URL = "https://t.me/amboders"; // Replace with your Telegram channel link
 
   const getIntroMessage = (ctx) => {
     const runtime = moment.utc(Date.now() - botStartTime).format("HH:mm:ss");
