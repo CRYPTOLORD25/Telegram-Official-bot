@@ -15,6 +15,12 @@ A powerful Telegram Bot built with Node.js, supporting many advanced features:
 ## 📦 Installation
 
 ```bash
+apt update
+apt upgrade
+pkg update && pkg upgrade
+pkg install nodejs
+pkg install wget 
+pkg install git
 git clone https://github.com/CRYPTOLORD25/Telegram-Official-bot.git
 cd Telegram-Official-bot
 npm install
