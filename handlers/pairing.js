@@ -24,7 +24,6 @@ module.exports = (bot) => {
 
   bot.hears("Listpaired", async (ctx) => {
     const pairs = await fs.readJson(path);
-    ctx.reply("Paired Users:
-" + pairs.join("\n"));
+    ctx.reply("Paired Users:" + pairs.join("\n"));
   });
 };
