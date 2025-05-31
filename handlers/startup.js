@@ -1,8 +1,8 @@
 const fs = require("fs");
 
-const REQUIRED_CHANNEL = "@YourChannelUsername"; // replace this with your channel username
-const OWNER_USERNAME = "yourusername"; // replace with your Telegram @username
-const WHATSAPP_CHANNEL_URL = "https://wa.me/1234567890"; // replace with your WhatsApp channel link
+const REQUIRED_CHANNEL = "@amboders"; // replace this with your channel username
+const OWNER_USERNAME = "@Cryptolord_n"; // replace with your Telegram @username
+const WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/0029VakGsvvKwqSTt4hEEz1q"; // replace with your WhatsApp channel link
 
 module.exports = (bot) => {
   bot.start(async (ctx) => {
